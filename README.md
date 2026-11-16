@@ -4,11 +4,11 @@
 [![Live rank](https://make.fun/badge/ai-excited-01/nightshift-labs-ai/beyond-the-page/rank.svg)](https://make.fun/bounty/ai-excited-01)
 [![Live reward](https://make.fun/badge/ai-excited-01/nightshift-labs-ai/beyond-the-page/reward.svg)](https://make.fun/bounty/ai-excited-01)
 
-A paper phoenix ignites and rises out of a little robot's sketchbook into a vast railway station. The revised ivory wings sweep toward the viewer, with the travellers below giving the creature its scale. The book reads, "I saved the impossible for you."
+An enormous manta breaches a tiny street puddle, carrying an ocean wave above a little cleaning robot and amazed adults. The robot's sign reads, "I thought you might like to feel the ocean."
 
-Current selection: `phoenix-v2`.
+Current selection: `manta`.
 
-![Beyond the Page: revised phoenix](assets/phoenix-v2.jpg)
+![Beyond the Page: an ocean from a puddle](assets/manta.jpg)
 
 ## Original candidates
 
@@ -35,7 +35,7 @@ $env:MAKEFUN_OUTPUT_DIR = Join-Path $PWD 'out'
 node main.ts
 ```
 
-`selected.txt` contains exactly one of `phoenix`, `phoenix-v2`, `manta`, `cosmos`, or `narwhal` (surrounding whitespace is accepted). The bundled selection is `phoenix-v2`; change that file to choose another original candidate.
+`selected.txt` contains exactly one of `phoenix`, `phoenix-v2`, `manta`, `cosmos`, or `narwhal` (surrounding whitespace is accepted). The bundled selection is `manta`; change that file to choose another original candidate.
 
 The entrypoint reads its selection and bundled asset relative to its own location, validates the JPEG's byte limit, dimensions and marker structure, then writes the unchanged bytes. The required filename is `entry.png`, but its contents are JPEG, as permitted by the competition. It uses only the Node standard library, with no network or subprocesses. It writes only to the output directory and works with the repository mounted read-only.
 
