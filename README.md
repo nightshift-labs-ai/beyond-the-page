@@ -4,11 +4,11 @@
 [![Live rank](https://make.fun/badge/ai-excited-01/nightshift-labs-ai/beyond-the-page/rank.svg)](https://make.fun/bounty/ai-excited-01)
 [![Live reward](https://make.fun/badge/ai-excited-01/nightshift-labs-ai/beyond-the-page/reward.svg)](https://make.fun/bounty/ai-excited-01)
 
-An enormous manta surges from a tiny, bounded street puddle portal above a little cleaning robot and amazed adults. The sign reads, "dear judge, I only meant to mop. sorry about the ocean."
+A planetarium's domed sky opens along an enormous zipper, revealing luminous galaxies above an operator and amazed visitors. A brass sign reads, "PLEASE TOUCH THE UNIVERSE".
 
-Current selection: `manta-v2`.
+Current selection: `cosmos`.
 
-![Beyond the Page: an enormous manta from a tiny puddle portal](assets/manta-v2.jpg)
+![Beyond the Page: an unzipped planetarium reveals the cosmos](assets/cosmos.jpg)
 
 ## Original candidates
 
@@ -36,7 +36,7 @@ $env:MAKEFUN_OUTPUT_DIR = Join-Path $PWD 'out'
 node main.ts
 ```
 
-`selected.txt` contains exactly one of `phoenix`, `phoenix-v2`, `manta`, `manta-v2`, `cosmos`, or `narwhal` (surrounding whitespace is accepted). The bundled selection is `manta-v2`; change that file to choose another original candidate.
+`selected.txt` contains exactly one of `phoenix`, `phoenix-v2`, `manta`, `manta-v2`, `cosmos`, or `narwhal` (surrounding whitespace is accepted). The bundled selection is `cosmos`; change that file to choose another original candidate.
 
 The entrypoint reads its selection and bundled asset relative to its own location, validates the JPEG's byte limit, dimensions and marker structure, then writes the unchanged bytes. The required filename is `entry.png`, but its contents are JPEG, as permitted by the competition. It uses only the Node standard library, with no network or subprocesses. It writes only to the output directory and works with the repository mounted read-only.
 
