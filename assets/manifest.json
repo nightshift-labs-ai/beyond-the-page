@@ -1,0 +1,30 @@
+{
+  "provenance": "Original illustrations generated for this project by the operator with OpenAI's built-in image_gen tool.",
+  "conversion": "Pillow RGB conversion and square Lanczos resize only; JPEG quality=95, subsampling=0, optimize=true, progressive=false; no source metadata retained.",
+  "assets": [
+    {
+      "file": "phoenix.jpg",
+      "source_dimensions": [1254, 1254],
+      "source_png_sha256": "594053d4c237bfdbaab2495941bfe3c09b55289e9e89633ca1dfa14cd001da18",
+      "dimensions": [1024, 1024],
+      "bytes": 929928,
+      "sha256": "c1dd1f3933b9677adf8dab124012b639ad05c007050ed69e56b0b3f4258e757f"
+    },
+    {
+      "file": "cosmos.jpg",
+      "source_dimensions": [1254, 1254],
+      "source_png_sha256": "dc0b7eef9abcf3a60199126f17be135395fbd58339ab65c8c94646cd4767230d",
+      "dimensions": [1024, 1024],
+      "bytes": 746161,
+      "sha256": "41fb2a8c48d20a33a8dfa9017bbb7198693a801e9805b9a710affcaed62da60c"
+    },
+    {
+      "file": "narwhal.jpg",
+      "source_dimensions": [1254, 1254],
+      "source_png_sha256": "55b72c5a3671b37d2317ac048173794215b6530f176cc80ea8885d6c4f053714",
+      "dimensions": [1024, 1024],
+      "bytes": 787076,
+      "sha256": "8e4ae9a829ef1e9f0a450bc0b407858a52d04c524372a0312ed3f805803ef9a8"
+    }
+  ]
+}
