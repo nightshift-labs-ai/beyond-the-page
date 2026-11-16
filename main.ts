@@ -2,7 +2,7 @@ const { readFileSync, mkdirSync, writeFileSync } = require("node:fs");
 const { join } = require("node:path");
 
 const MAX_BYTES = 1048576;
-const CANDIDATES = ["phoenix", "phoenix-v2", "manta", "cosmos", "narwhal"];
+const CANDIDATES = ["phoenix", "phoenix-v2", "manta", "manta-v2", "cosmos", "narwhal"];
 
 function validateJpeg(bytes) {
   if (bytes.length < 4 || bytes.length > MAX_BYTES) {
@@ -63,7 +63,7 @@ function validateJpeg(bytes) {
 function main() {
   const selected = readFileSync(join(__dirname, "selected.txt"), "utf8").trim();
   if (!CANDIDATES.includes(selected)) {
-    throw new Error("selected.txt must contain phoenix, phoenix-v2, manta, cosmos, or narwhal.");
+    throw new Error("selected.txt must contain phoenix, phoenix-v2, manta, manta-v2, cosmos, or narwhal.");
   }
   const bytes = readFileSync(join(__dirname, "assets", `${selected}.jpg`));
   validateJpeg(bytes);

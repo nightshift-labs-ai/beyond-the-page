@@ -1,1 +1,1 @@
-manta
+manta-v2
